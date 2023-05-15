@@ -1,0 +1,39 @@
+body{
+    background-color: beige;
+}
+.name{
+    margin-left: 300px;
+    font-size: 85px;
+    font-weight: 900;
+    font-family: 'Dongle', sans-serif;
+}
+.name>p{
+    margin-bottom: 0;
+    margin-top:0;
+}
+.info{
+    line-height: 10%;
+    opacity: 0.4;
+    font-size: 20px;
+    font-weight: 200;
+    margin-right: 700px;
+
+}
+.info>p{
+    margin-top: 0;
+}
+.imgg{
+    top: 50%;
+    left: 50%;
+    margin-left: 300px;
+    margin-top: 70px;
+    width: 300px;
+    height: 300px;
+    border-radius: 70%;
+}
+.Hi{
+    margin-top : 30px;
+    margin-left: 20%;
+    font-family: 'Stylish', sans-serif; 
+    font-size: 20px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="utf-8">
+        <title>샘플 페이지</title>
+        <link  href="css/reset.css" rel="stylesheet"
+        type = "text/css" />
+        <link  href="css/style.css" rel="stylesheet"
+        type="text/css" />   
+        <script src = "js/jquery.1.12.4.js"
+        type = "text/javascript"> </script>
+        <script
+        src = "plugins/bxslider/js/jquery.bxslider.js";
+        type = "text/javascript";
+        > </script>  
+        <script src="https://kit.fontawesome.com/1ad17fd3be.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+          $(".slider").bxSlider({
+            controls:false,
+            pager:false,
+            auto:true
+        }
+          );
+        });
+      </script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+    
+    </head>
+    <body>
+        <div class = "overlay"></div>
+        <div class = "slider">
+            <div class="background_01"></div>
+            <div class="background_02"></div>
+            <div class="background_03"></div>
+        </div>
+  
+        
+        <div class = "contents">
+            <p class="text"></p>
+            <script src="typing.js"></script>
+
+            <div class="sns">
+                <ul class = "list">
+                    <li>
+                        <a href="#" target="blank">
+                        <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"target="blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/cwonseo?igshid=NTc4MTIwNjQ2YQ=="target="blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Cwonseo"target="blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="introduce">
+
+                    <li> <a href=" AboutMe.html">About me</a></li>
+                    <li><a href="Like.html">Like</a></li>
+                    <li><a href="Project.html">project</a></li>
+                </ul>
+            </div>
+        </div>
+        </body>
+</html>
